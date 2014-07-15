@@ -11,8 +11,8 @@ describe 'yum-jpackage::default' do
       end.converge('yum-jpackage::default')
   end
 
-  it "creates yum_repository[#{repo}]" do
-    expect(chef_run).to create_yum_repository(repo)
+  it 'creates yum_repository jpackage' do
+    expect(chef_run).to create_yum_repository('jpackage')
   end
 
 end

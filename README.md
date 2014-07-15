@@ -55,7 +55,7 @@ The following platform families are supported in the code, and are assumed to wo
     <td><tt>node[:yum][:jpackage][:gpgcheck]</tt></td>
     <td>Boolean</td>
     <td>check GPG Cert</td>
-    <td><tt>true</tt></td>
+    <td><tt>false</tt></td>
   </tr>
 </table>
 

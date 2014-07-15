@@ -19,6 +19,6 @@ else
 end
 
 default[:yum][:jpackage][:failovermethod] = 'priority'
-default[:yum][:jpackage][:gpgcheck] = true
+default[:yum][:jpackage][:gpgcheck] = false
 default[:yum][:jpackage][:enabled] = true
 default[:yum][:jpackage][:managed] = true
