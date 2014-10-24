@@ -21,13 +21,11 @@ Requirements
 
 The following platforms and versions are tested and supported using Opscode's test-kitchen.
 
-- CentOS 5.8, 6.3
+- CentOS 6.x 
+- Red Hat 6.x
 
 The following platform families are supported in the code, and are assumed to work based on the successful testing on CentOS.
 
-
-- Red Hat (rhel)
-- Fedora
 - Amazon Linux
 
 #### jpackage:default
@@ -109,3 +107,5 @@ Authors:
 Lucas Mariani (Psyreactor)
 - [marianiluca@gmail.com](mailto:marianiluca@gmail.com)
 - [https://github.com/psyreactor](https://github.com/psyreactor)
+- [http://blog.psyreactor.com.ar](http://blog.psyreactor.com.ar)
+
